@@ -37,7 +37,6 @@ CREATE TABLE IF NOT EXISTS employees_cdc(
   dob DATE,
   city VARCHAR(100),
   action VARCHAR(10),
-  FOREIGN KEY (emp_id) REFERENCES employees (emp_id)
 );
 """
 
